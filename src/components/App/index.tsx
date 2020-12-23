@@ -5,7 +5,7 @@ import SignUp from '../../challenges/001'
 const App:React.FC = () => {
   return (
     <div className='app' >
-      I'm the app
+      <SignUp />
     </div>
   );
 }
