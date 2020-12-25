@@ -18,7 +18,7 @@ const Checkout: React.FC = (): ReactElement => {
 					<input type='text' name='card-date' className='card-date' />
 				</div>
 				<div id='element4' className='element'>
-					<label htmlFor='card-cvv'>card cvv</label>
+					<label htmlFor='card-cvv'>CVV</label>
 					<input type='text' name='card-cvv' className='card-cvv' />
 				</div>
 			</form>

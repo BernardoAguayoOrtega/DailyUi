@@ -1,24 +1,29 @@
 .card-container {
+  align-items: center;
   background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 2rem;
+  height: 50%;
 }
 
 .card-fields {
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     'a a'
     'b b'
     'c d'
   ;
 }
 
-.element{
+.element {
   display: flex;
   flex-direction: column;
 }
 
-.element > label {
+.element>label {
   color: white;
   font-size: 1.2rem;
   margin: 1rem 0;
@@ -26,18 +31,42 @@
   text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px black, 0 0 30px black, 0 0 40px black, 0 0 55px black, 0 0 75px black;
 }
 
-#element1{
+#element1 {
   grid-area: a;
 }
 
-#element2{
+#element2 {
   grid-area: b;
 }
 
-#element3{
+#element3 {
   grid-area: c;
+  margin-right: 5rem;
 }
 
-#element4{
+#element3>input {
+  max-width: 4rem;
+}
+
+#element4 {
   grid-area: d;
+}
+
+#element4>input {
+  max-width: 3rem;
+}
+
+button {
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+  border: none;
+  color: white;
+  padding: .3rem;
+  opacity: .5;
+  transition: 1s;
+  width: 50%;
+}
+
+button:hover {
+  opacity: 1;
+  transition: 1s;
 }
