@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
-import Checkout from '../../challenges/002'
+import LandingPage from '../../challenges/003'
 
 const App:React.FC = () => {
   return (
     <div className='app' >
-      <Checkout />
+      <LandingPage />
     </div>
   );
 }
