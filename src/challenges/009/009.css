@@ -1,0 +1,29 @@
+.container {
+  background-color: #FAC1CF;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.header{
+  align-items: center;
+  color: white;
+  display: grid;
+  font-size: 1rem;
+  font-weight: 600;
+  grid-template-columns: .1fr 1fr;
+  text-transform: capitalize;
+  justify-items: center;
+}
+
+.image{
+  background-color: white;
+  border-radius: 100%;
+  height: 12rem;
+}
+
+.player > small {
+  color: white;
+  padding: .5rem;
+  margin: 0 80px;
+  margin-bottom: .1rem;
+}
