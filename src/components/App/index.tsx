@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
-import Calculator from '../../challenges/004'
+import MusicPlayer from '../../challenges/009'
 
 const App:React.FC = () => {
   return (
     <div className='app' >
-      <Calculator />
+      <MusicPlayer />
     </div>
   );
 }
