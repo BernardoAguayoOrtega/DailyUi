@@ -54,3 +54,5 @@ const FlashMessage: React.FC = (): ReactElement => {
   );
 };
 export default FlashMessage;
+
+//https://dribbble.com/shots/14165370-Daily-UI-flash-message
