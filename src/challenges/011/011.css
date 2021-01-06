@@ -1,0 +1,20 @@
+.container{
+  align-items: center;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  position: absolute;
+}
+
+.close-button{
+  background-color: darkblue;
+  border-radius: 60%;
+  border: none;
+  color: white;
+  padding: .5rem;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}

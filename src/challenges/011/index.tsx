@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react';
 import './011.css';
 
 const CloseButton: React.FC = (): ReactElement => {
-	return <button> x </button>;
+	return <button className='close-button'> x </button>;
 };
 
 interface image {
@@ -46,8 +46,8 @@ const SubmitButton: React.FC<button> = ({ message }): ReactElement => {
 const FlashMessage: React.FC = (): ReactElement => {
 	return (
     <div className="container">
-      <CardImage src='nop' alt='some' />
       <CloseButton />
+      <CardImage src='nop' alt='some' />
       <MessageInfo title='TITLE' subInfo='SUBINFO' />
       <SubmitButton message='Done'/>
     </div>
