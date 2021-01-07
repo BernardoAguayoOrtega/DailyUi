@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
-import FlashMessage from '../../challenges/011'
+import Shop from '../../challenges/012'
 
 const App:React.FC = () => {
   return (
     <div className='app' >
-      <FlashMessage />
+      <Shop />
     </div>
   );
 }
