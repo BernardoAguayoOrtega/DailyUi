@@ -1,0 +1,40 @@
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+.left-side{
+  display: flex;
+  justify-content: space-between;
+  width: 33.33%
+}
+
+.menu{
+  color: purple;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.logo-container {
+  width: 33.33%
+}
+
+.right-side {
+  align-items: center;
+  color: purple;
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+
+.search {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
