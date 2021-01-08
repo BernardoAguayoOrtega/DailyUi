@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
-import Shop from '../../challenges/012'
+import DirectMessage from '../../challenges/013'
 
 const App:React.FC = () => {
   return (
     <div className='app' >
-      <Shop />
+      <DirectMessage />
     </div>
   );
 }
