@@ -1,0 +1,57 @@
+.container{
+  background: whitesmoke;
+  padding: 1rem;
+}
+
+.header-container > i {
+  color:#647A90;
+}
+
+.timer-container{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.external-wheel {
+  align-self: center;
+  border-radius: 100%;
+  border: #F8DD9B 4px solid;
+  display: flex;
+  justify-content: center;
+  height: 10rem;
+  width: 10rem;
+}
+
+.internal-wheel {
+  align-self: center;
+  background-color: pink;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  width: 8rem;
+}
+
+.numbers{
+  align-self: center;
+  color:#647A90;
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.footer-container{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  background-color:pink;
+  border-radius: 100%;
+  color: #647A90;
+  padding: .7rem;
+}
