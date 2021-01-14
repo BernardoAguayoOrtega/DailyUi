@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
-import OnOff from '../../challenges/015'
+import EmailReceipt from '../../challenges/017'
 
 const App:React.FC = () => {
   return (
     <div className='app' >
-      <OnOff />
+      <EmailReceipt />
     </div>
   );
 }
