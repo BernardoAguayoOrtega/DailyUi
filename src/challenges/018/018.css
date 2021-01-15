@@ -5,3 +5,52 @@
   width: 30rem;
 }
 
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.chart {
+  align-self: center;
+  border: 1.3rem solid #F9DB9C;
+  border-radius: 100%;
+  display: flex;
+  justify-content:center;
+  height: 8rem;
+  margin: 1rem auto;
+  width: 8rem;
+}
+
+.chart-content {
+  margin: auto;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.content-info {
+  color: lightgray;
+  margin: auto;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto;
+  width: 80%;
+}
+
+.side {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.up {
+  font-size: 2rem;
+}
+
+.down {
+  color: lightgray;
+  margin: auto;
+}
