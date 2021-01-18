@@ -1,0 +1,17 @@
+.container {
+  background: whitesmoke;
+  color: white;
+  width: 30rem;
+}
+
+.header{
+  align-items: center;
+  background-color: #877BB6;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.header > i {
+  font-size: 2rem;
+}

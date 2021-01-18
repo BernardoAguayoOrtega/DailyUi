@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
-import Chart from '../../challenges/018'
+import Application from '../../challenges/019'
 
 const App:React.FC = () => {
   return (
     <div className='app' >
-      <Chart />
+      <Application />
     </div>
   );
 }
