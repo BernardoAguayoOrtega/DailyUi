@@ -1,0 +1,47 @@
+.container {
+  background: white;
+  color: white;
+  width: 30rem;
+}
+
+.header {
+  align-items: center;
+  background-color: #F16589;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.header>i {
+  font-size: 2rem;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.cards-section {
+  padding: 1rem;
+}
+
+.card-container {
+  background-color: #F6F6F6;
+  box-shadow: inset -1px 3px 8px 5px #F6F6F6, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.one{
+  align-items: center;
+  color: black;
+  display: flex;
+  justify-content:center;
+}
+
+.one h2 {
+  font-size: 5rem;
+  font-weight: 100;
+}
+
+.one .buttons{
+  display: flex;
+  flex-direction: column;
+}
