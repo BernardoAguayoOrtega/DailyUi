@@ -1,0 +1,31 @@
+:root {
+  --blue: #2498FE;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background: red;
+  border-radius: 1rem;
+  color: black;
+  width: 30rem;
+}
+
+header {
+  width: 100%;
+  height: 30rem;
+}
+
+header > figure {
+  background: purple;
+  height: 100%;
+}
+
+header > figure > img {
+  border-radius: 1rem  1rem 0 0;
+  height: 100%;
+  width: 100%;
+}
