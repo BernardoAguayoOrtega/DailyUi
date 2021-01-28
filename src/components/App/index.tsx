@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import Application from '../../challenges/025'
+import Application from '../../challenges/026'
 
 const App:React.FC = () => {
   return (
